@@ -17,9 +17,11 @@ units: mm
 ____________________________________________________________________________________________________________________________________
 #.:. SKETCH EXPLANATION
 
-![WGCM_screen.PNG](https://github.com/ale2x72/WASP_GCodeMaker/blob/master/images/WGCM_screen.PNG)
+![WGCM_screen.PNG](images/WGCM_screen.PNG)
 
 ***. DXF files import***
+
+![WGCM_intro.PNG](images/WGCM_intro.PNG)
 
 Place your .dxf files in the dxf_data sub folder, then run the sketch. Files will be read automatically and appear in the splash screen.
 
