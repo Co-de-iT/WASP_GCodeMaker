@@ -17,7 +17,7 @@ units: mm
 ____________________________________________________________________________________________________________________________________
 #.:. SKETCH EXPLANATION
 
-![Screen Shot 2015-06-18 at 10.21.34 .png](https://bitbucket.org/repo/54xoGG/images/968750995-Screen%20Shot%202015-06-18%20at%2010.21.34%20.png)
+![WGCM_screen.PNG](https://github.com/ale2x72/WASP_GCodeMaker/blob/master/images/WGCM_screen.PNG)
 
 ***. DXF files import***
 
