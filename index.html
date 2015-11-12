@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Wasp gcodemaker by Co-de-iT</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Wasp gcodemaker</h1>
+        <p>WASP GCode maker</p>
+
+        <p class="view"><a href="https://github.com/Co-de-iT/WASP_GCodeMaker">View the Project on GitHub <small>Co-de-iT/WASP_GCodeMaker</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Co-de-iT/WASP_GCodeMaker/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Co-de-iT/WASP_GCodeMaker/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Co-de-iT/WASP_GCodeMaker">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="gcode-exporter-for-wasp" class="anchor" href="#gcode-exporter-for-wasp" aria-hidden="true"><span class="octicon octicon-link"></span></a>GCode exporter for WASP</h1>
+
+<hr>
+
+<h1>
+<a id="-general-notes" class="anchor" href="#-general-notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>.:. GENERAL NOTES</h1>
+
+<p>Exports GCode for <a href="http://www.wasproject.it">WASP</a></p>
+
+<p><strong><em>. about the dxf</em></strong></p>
+
+<p>DXF file must contain the polylines for each printing layer. The polylines MUST be joined. If exporting from Rhino, use the "2004 - Polylines" export template, with the only modification of unchecking "explode polylines" (polylines MUST be joined and NOT exploded)</p>
+
+<p>units: mm</p>
+
+<hr>
+
+<h1>
+<a id="-sketch-explanation" class="anchor" href="#-sketch-explanation" aria-hidden="true"><span class="octicon octicon-link"></span></a>.:. SKETCH EXPLANATION</h1>
+
+<p><img src="images/WGCM_screen.PNG" alt="WGCM_screen.PNG"></p>
+
+<p><strong><em>. DXF files import</em></strong></p>
+
+<p><img src="images/WGCM_intro.PNG" alt="WGCM_intro.PNG"></p>
+
+<p>Place your .dxf files in the dxf_data sub folder, then run the sketch. Files will be read automatically and appear in the splash screen.</p>
+
+<p><strong><em>. graphics</em></strong></p>
+
+<p>Print layers go from black to light blue in order of printing (so black should be at the bottom in standard printing processes)</p>
+
+<p><strong><em>. sketch navigation</em></strong></p>
+
+<p>the sketch uses PeasyCam, navigation is as follows:</p>
+
+<p>. ORBIT: click and drag LMB
+. PAN: click and drag RMB
+. ZOOM: mouse wheel
+. RESET VIEW: double click LMB or RMB</p>
+
+<p><strong><em>. buttons and sliders</em></strong></p>
+
+<p>. GCODE: you know what this one does...
+. IMG: exports a screenshot of the current view
+. FILE: goes back to splash screen to choose a file
+. CZ: toggle for custom Z (grey = inactive)</p>
+
+<p>. Z: custom Z value (active only if CZ is on)
+. E RATE: custm E(xtrusion) Rate for GCode</p>
+
+<p><strong><em>. exported files</em></strong></p>
+
+<p>exported GCode and screenshots go in a folder on your desktop.</p>
+
+<hr>
+
+<h1>
+<a id="-known-bugs" class="anchor" href="#-known-bugs" aria-hidden="true"><span class="octicon octicon-link"></span></a>.:. KNOWN BUGS</h1>
+
+<p>none so far (write the one you find here)</p>
+
+<hr>
+
+<h1>
+<a id="-implementations" class="anchor" href="#-implementations" aria-hidden="true"><span class="octicon octicon-link"></span></a>.:. IMPLEMENTATIONS</h1>
+
+<p>. make nodes as a class with embedded GCode
+. G-Code live preview in polyline nodes when mouse over
+. ability to set print bucket size</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Co-de-iT">Co-de-iT</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
